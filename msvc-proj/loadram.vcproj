@@ -60,7 +60,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="$(SolutionDir)/lib/msvc/libusb.lib"
+				AdditionalDependencies="$(SolutionDir)/../lib/msvc/libusb-1.0.lib"
 				LinkIncremental="2"
 				GenerateManifest="false"
 				GenerateDebugInformation="true"

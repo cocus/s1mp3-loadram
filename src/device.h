@@ -10,9 +10,9 @@
 #include "stdio.h"
 #include "device.h"
 #ifdef	WIN32
-#include "../include/usb.h"
+#include "../include/libusb.h"
 #else
-#include <usb.h>
+#include <libusb.h>
 #endif
 
 
